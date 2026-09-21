@@ -1,0 +1,12 @@
+INFO startup
+ERROR config missing
+INFO loading modules
+WARN retrying
+INFO ready
+ERROR request failed
+INFO accepted request
+DEBUG cache check
+INFO completed request
+INFO cleanup
+ERROR late failure
+INFO shutdown

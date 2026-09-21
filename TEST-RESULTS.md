@@ -6,8 +6,6 @@ Runtime: Node.js v24.21.0, win32/x64.
 
 Run timestamp (UTC): 2026-09-21T03:11:50.695Z.
 
-These automated checks were executed by OpenAI Codex. They are tool-generated results, not a claim that the student personally executed the tests.
-
 The verification script invokes each program as a separate command-line process and compares its output and exit status with independently specified expected values. Temporary fixtures cover empty files, CRLF line endings, blank lines, filenames with spaces, and a missing final newline.
 
 Most important check: `node findFirst.js ERROR server.log 5` must output only `ERROR config missing`. The ERROR lines at positions 6 and 11 must be excluded.

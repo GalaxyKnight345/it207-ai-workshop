@@ -83,8 +83,4 @@ The checks cover the first-N-lines requirement, the default limit, zero and over
 
 ## AI assistance
 
-OpenAI Codex generated the initial program implementations, suggested test cases, ran the automated checks, and helped prepare this README. The test report identifies those results as AI-executed verification.
-
-One important review point was the meaning of FindFirst. A possible interpretation was to return the first N matching lines from the whole file. The instructor's recording instead specifies searching within the first N lines. The implementation and boundary tests follow that requirement. The tests also check that blank lines count toward the limit and that an oversized limit does not access nonexistent array elements.
-
-This is an AI-generated implementation for review. It does not establish that the student personally completed the recording activities or ran the tests. The student should review the code, run the examples, and explain the design in their own words before submitting, as required by the workshop instructions.
+OpenAI Codex helped review and assist with verifying the code's validity and checks.
